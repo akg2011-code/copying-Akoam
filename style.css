@@ -1,0 +1,330 @@
+﻿/*start main*/
+body {
+    height: 3600px;
+    background-color:#191919;
+}
+.contener{
+    width:800px;
+    margin:auto;
+
+}
+/*end main*/
+/*header*/
+.header 
+{
+    padding-top:20px;
+    padding-bottom:50px;
+    overflow:hidden;
+}
+.header  .part1
+{
+    height: 30px;
+    padding-bottom:30px;
+    
+}
+.header  .part1 .search ,
+.header  .part1 .pic img
+{
+   float:left;
+      width:70%;
+}
+.header  .part1 .search
+{
+    background-color:#222222;
+    border:15px solid #191919;
+    color:#3b3b3b;
+  
+}
+
+/*radio*/
+.header  .part1 .search label
+{
+    font-size:20px;
+    line-height:2px;
+}
+.header  .part1 .search label:active
+{
+    color:#0bc7fc
+}
+
+/*radio*/
+.header  .part1 .search img
+{
+    margin-left :5px;
+    margin-right:60px;
+    width:40px;
+    height:35px;
+}
+.header  .part1 .search textarea
+{
+    width:200px;
+    height:50px;
+    float:right;
+    background-color:#222222;
+    border:none;
+    resize:none;
+    color:#3b3b3b;
+    font-size:x-large;
+    line-height:45px;
+}
+.header  .part1 .pic img
+{
+    width:190px;
+    height:80px;
+    float:right;
+}
+.header .part2
+{
+    height: 50px;
+    padding-top:30px;
+}
+.header  .part2 .left ,
+.header  .part2 .right
+{
+    width:50%;
+    float:left;
+}
+.header  .part2 .left img ,
+.header  .part2 .right img 
+{
+    width:30px;
+    height:30px;
+    margin-right:5px;
+    margin-left:5px;
+}
+/*header*/
+/*face*/
+.face
+{
+    overflow:hidden;
+}
+.face .pic,
+.face .list
+{
+    width:50%;
+    float:left;
+}
+.face .pic
+{
+        background: url(bb.jpg) no-repeat  ;
+       background-size: cover;
+        height: 400px;
+        width:400px;
+}
+#a
+{
+        height: 50px;
+        width:50px;
+        text-align:left;
+}
+#b
+{
+            height: 50px;
+        width:50px;
+        text-align:right;
+        padding-left:290px;
+}
+.face .pic h2
+{
+    padding-top:250px;
+    text-align:center;
+    font-weight:bold;
+    color:#fff
+}
+.face .pic p
+{
+    color:#00c7fc;
+    text-align:center;
+    font-weight:bold;
+}
+.face .list ul
+{
+    float:right;
+    list-style:none;
+   overflow:hidden;
+   float:right;
+}
+.face .list ul li
+{
+    width:50%;
+    float:right;
+    color:#7b7b7b;
+    margin-bottom:20px;
+   
+}
+.face .list ul li a
+{
+   float:right;
+}
+.face .list ul li img
+{
+    float:right;
+    margin-left:20px;
+    width:20px;
+    height:20px;
+}
+/*face*/
+/*navbar*/
+.nav
+{
+    background-color:#00c7fc;
+    height:50px;
+    overflow:hidden;
+}
+.nav img
+{
+    float:right;
+    height:50px;
+    background:none;
+    border:none;
+    width:70px;
+    cursor:pointer;
+}
+/*navbar*/
+/*cards*/
+.cards
+{
+    overflow:hidden;
+    padding-bottom:50px;
+}
+.cards .film div
+{
+    width:28.333333%;
+    border:10px solid #191919;
+    float:right;
+    background: url(b.jpg) no-repeat center ;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    width:220px;
+    padding-top:20px;
+    overflow:hidden;
+    cursor:pointer;
+}
+.cards .film div h2
+{
+    margin-top:245px;
+    background-color:#171110;
+    color:#fff;
+    text-align:center;
+    opacity:0.6;
+}
+/*cards*/
+/*next*/
+.next
+{
+    
+   overflow:hidden;
+}
+.next .part button
+{
+    float:right;
+    border:2px solid #000;
+    cursor:pointer;
+    width:250px;
+    height:150px;
+    background-color:#191919;
+    color:#a0a0a0;
+    font-size:x-large;
+    font-weight:bold;
+}
+.next .part button:hover
+{
+    background-color:#22c7fc;
+}
+/*next*/
+/*navbar*/
+.navbar
+{
+    background-color:#4c8915;
+    height:50px;
+    overflow:hidden;
+    margin-top:20px;
+}
+.navbar img
+{
+    float:left;
+    height:35px;
+    background-color:#111111;
+    border:2px solid #4b4b4b;
+    width:35px;
+    cursor:pointer;
+    margin-right:15px;
+    margin-top:5px;
+    box-shadow: 3px 3px 10px #315610;
+}
+.navbar img:hover
+{
+    border:2px dashed #4cff00;
+}
+/*navbar*/
+/*agher*/
+.agher
+{
+    overflow:hidden;
+    background-color:#111111;
+}
+.agher .left ul
+{
+    margin-left:120px;
+}
+.agher .left ul li
+{
+    float:left;
+    font-size:large;
+    color:#a0a0a0;
+    padding-left:20px;
+    cursor:pointer;
+}
+.agher .left ul li:hover
+{
+    color:#fff;
+}
+.agher .left ,
+.agher .right
+{
+    width:50%;
+    float:left;
+    background-color:#111111;
+}
+.agher .right  .form
+{
+    width:50%;
+     float:right;
+    padding-right:10px;
+    padding-left:50px;
+    margin-top:20px;
+    background-color:#191919;
+    border-radius:10px;
+}
+.agher .right  .form .image,
+.agher .right  .form .link
+{
+    float:right;
+    width:50%;
+}
+.agher .right  .form .link a
+{
+    text-decoration:none;
+    float:right;
+    margin-top:30px;
+    margin-bottom:10px;
+    color:#808080;
+    font-weight:bold;
+}
+.agher .right  .form .link a:hover
+{
+    color:#22c7fc;
+        
+}
+.agher .right  .form .image img
+{
+    width:50px;
+    height:50px;
+    margin:10px 10px 5px 0 ;
+    float:right;
+    
+}
+/*agher*/
